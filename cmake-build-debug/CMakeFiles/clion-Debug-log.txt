@@ -1,4 +1,9 @@
-"/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja" -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc@11/11.3.0/bin/g++-11 -G Ninja -S /Users/yaroslavshlapak/CLionProjects/pjc -B /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug
+"/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja" -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc@11/11.3.0/bin/gcc-11 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc@11/11.3.0/bin/g++-11 -G Ninja -S /Users/yaroslavshlapak/CLionProjects/pjc -B /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug
+-- Module support is disabled.
+-- Version: 9.1.0
+-- Build type: Debug
+-- CXX_STANDARD: 20
+-- Required features: cxx_variadic_templates
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug
