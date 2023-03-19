@@ -3,7 +3,11 @@ project(pjc)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(pjc lab01/lab0102.cpp)
+add_executable(pjc01 lab01/lab0102.cpp)
+add_executable(pjc02 lab02/lab0201.cpp)
+add_executable(pjc03 lab03/lab0301.cpp)
+add_executable(pjc0302 lab03/lab0302.cpp)
+add_executable(pjc04test lab04/lab04test.cpp)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -12,4 +16,8 @@ FetchContent_Declare(
         GIT_TAG         a33701196adfad74917046096bf5a2aa0ab0bb50
 )
 FetchContent_MakeAvailable(fmt)
-target_link_libraries(pjc fmt)
+target_link_libraries(pjc01 fmt)
+target_link_libraries(pjc02 fmt)
+target_link_libraries(pjc03 fmt)
+target_link_libraries(pjc0302 fmt)
+target_link_libraries(pjc04test fmt)
