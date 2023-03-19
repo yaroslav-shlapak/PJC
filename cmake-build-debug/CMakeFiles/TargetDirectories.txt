@@ -2,6 +2,7 @@
 /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/pjc02.dir
 /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/pjc03.dir
 /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/pjc0302.dir
+/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/pjc0303.dir
 /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/pjc04test.dir
 /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

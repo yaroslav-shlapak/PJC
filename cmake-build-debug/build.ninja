@@ -170,6 +170,39 @@ build pjc0302: CXX_EXECUTABLE_LINKER__pjc0302_Debug CMakeFiles/pjc0302.dir/lab03
   TARGET_PDB = pjc0302.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target pjc0303
+
+
+#############################################
+# Order-only phony target for pjc0303
+
+build cmake_object_order_depends_target_pjc0303: phony || cmake_object_order_depends_target_fmt
+
+build CMakeFiles/pjc0303.dir/lab03/lab0303.cpp.o: CXX_COMPILER__pjc0303_Debug /Users/yaroslavshlapak/CLionProjects/pjc/lab03/lab0303.cpp || cmake_object_order_depends_target_pjc0303
+  DEP_FILE = CMakeFiles/pjc0303.dir/lab03/lab0303.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/_deps/fmt-src/include
+  OBJECT_DIR = CMakeFiles/pjc0303.dir
+  OBJECT_FILE_DIR = CMakeFiles/pjc0303.dir/lab03
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pjc0303
+
+
+#############################################
+# Link the executable pjc0303
+
+build pjc0303: CXX_EXECUTABLE_LINKER__pjc0303_Debug CMakeFiles/pjc0303.dir/lab03/lab0303.cpp.o | _deps/fmt-build/libfmtd.a || _deps/fmt-build/libfmtd.a
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  LINK_LIBRARIES = _deps/fmt-build/libfmtd.a
+  OBJECT_DIR = CMakeFiles/pjc0303.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = pjc0303
+  TARGET_PDB = pjc0303.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target pjc04test
 
 
@@ -308,7 +341,7 @@ build libfmtd.a: phony _deps/fmt-build/libfmtd.a
 #############################################
 # Folder: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug
 
-build all: phony pjc01 pjc02 pjc03 pjc0302 pjc04test _deps/fmt-build/all
+build all: phony pjc01 pjc02 pjc03 pjc0302 pjc0303 pjc04test _deps/fmt-build/all
 
 # =============================================================================
 
