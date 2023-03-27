@@ -235,6 +235,72 @@ build pjc04test: CXX_EXECUTABLE_LINKER__pjc04test_Debug CMakeFiles/pjc04test.dir
   TARGET_FILE = pjc04test
   TARGET_PDB = pjc04test.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pjc0401
+
+
+#############################################
+# Order-only phony target for pjc0401
+
+build cmake_object_order_depends_target_pjc0401: phony || cmake_object_order_depends_target_fmt
+
+build CMakeFiles/pjc0401.dir/lab04/lab0401.cpp.o: CXX_COMPILER__pjc0401_Debug /Users/yaroslavshlapak/CLionProjects/pjc/lab04/lab0401.cpp || cmake_object_order_depends_target_pjc0401
+  DEP_FILE = CMakeFiles/pjc0401.dir/lab04/lab0401.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/_deps/fmt-src/include
+  OBJECT_DIR = CMakeFiles/pjc0401.dir
+  OBJECT_FILE_DIR = CMakeFiles/pjc0401.dir/lab04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pjc0401
+
+
+#############################################
+# Link the executable pjc0401
+
+build pjc0401: CXX_EXECUTABLE_LINKER__pjc0401_Debug CMakeFiles/pjc0401.dir/lab04/lab0401.cpp.o | _deps/fmt-build/libfmtd.a || _deps/fmt-build/libfmtd.a
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  LINK_LIBRARIES = _deps/fmt-build/libfmtd.a
+  OBJECT_DIR = CMakeFiles/pjc0401.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = pjc0401
+  TARGET_PDB = pjc0401.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pjc0501
+
+
+#############################################
+# Order-only phony target for pjc0501
+
+build cmake_object_order_depends_target_pjc0501: phony || cmake_object_order_depends_target_fmt
+
+build CMakeFiles/pjc0501.dir/lab05/lab0501.cpp.o: CXX_COMPILER__pjc0501_Debug /Users/yaroslavshlapak/CLionProjects/pjc/lab05/lab0501.cpp || cmake_object_order_depends_target_pjc0501
+  DEP_FILE = CMakeFiles/pjc0501.dir/lab05/lab0501.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/_deps/fmt-src/include
+  OBJECT_DIR = CMakeFiles/pjc0501.dir
+  OBJECT_FILE_DIR = CMakeFiles/pjc0501.dir/lab05
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pjc0501
+
+
+#############################################
+# Link the executable pjc0501
+
+build pjc0501: CXX_EXECUTABLE_LINKER__pjc0501_Debug CMakeFiles/pjc0501.dir/lab05/lab0501.cpp.o | _deps/fmt-build/libfmtd.a || _deps/fmt-build/libfmtd.a
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  LINK_LIBRARIES = _deps/fmt-build/libfmtd.a
+  OBJECT_DIR = CMakeFiles/pjc0501.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = pjc0501
+  TARGET_PDB = pjc0501.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -341,7 +407,7 @@ build libfmtd.a: phony _deps/fmt-build/libfmtd.a
 #############################################
 # Folder: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug
 
-build all: phony pjc01 pjc02 pjc03 pjc0302 pjc0303 pjc04test _deps/fmt-build/all
+build all: phony pjc01 pjc02 pjc03 pjc0302 pjc0303 pjc04test pjc0401 pjc0501 _deps/fmt-build/all
 
 # =============================================================================
 
