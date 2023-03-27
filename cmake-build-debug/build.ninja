@@ -301,6 +301,39 @@ build pjc0501: CXX_EXECUTABLE_LINKER__pjc0501_Debug CMakeFiles/pjc0501.dir/lab05
   TARGET_FILE = pjc0501
   TARGET_PDB = pjc0501.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target user-defined-types
+
+
+#############################################
+# Order-only phony target for user-defined-types
+
+build cmake_object_order_depends_target_user-defined-types: phony || cmake_object_order_depends_target_fmt
+
+build CMakeFiles/user-defined-types.dir/lab05/user-defined-types.cpp.o: CXX_COMPILER__user-defined-types_Debug /Users/yaroslavshlapak/CLionProjects/pjc/lab05/user-defined-types.cpp || cmake_object_order_depends_target_user-defined-types
+  DEP_FILE = CMakeFiles/user-defined-types.dir/lab05/user-defined-types.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/_deps/fmt-src/include
+  OBJECT_DIR = CMakeFiles/user-defined-types.dir
+  OBJECT_FILE_DIR = CMakeFiles/user-defined-types.dir/lab05
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target user-defined-types
+
+
+#############################################
+# Link the executable user-defined-types
+
+build user-defined-types: CXX_EXECUTABLE_LINKER__user-defined-types_Debug CMakeFiles/user-defined-types.dir/lab05/user-defined-types.cpp.o | _deps/fmt-build/libfmtd.a || _deps/fmt-build/libfmtd.a
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  LINK_LIBRARIES = _deps/fmt-build/libfmtd.a
+  OBJECT_DIR = CMakeFiles/user-defined-types.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = user-defined-types
+  TARGET_PDB = user-defined-types.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -407,7 +440,7 @@ build libfmtd.a: phony _deps/fmt-build/libfmtd.a
 #############################################
 # Folder: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug
 
-build all: phony pjc01 pjc02 pjc03 pjc0302 pjc0303 pjc04test pjc0401 pjc0501 _deps/fmt-build/all
+build all: phony pjc01 pjc02 pjc03 pjc0302 pjc0303 pjc04test pjc0401 pjc0501 user-defined-types _deps/fmt-build/all
 
 # =============================================================================
 

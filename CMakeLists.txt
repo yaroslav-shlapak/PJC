@@ -11,6 +11,7 @@ add_executable(pjc0303 lab03/lab0303.cpp)
 add_executable(pjc04test lab04/lab04test.cpp)
 add_executable(pjc0401 lab04/lab0401.cpp)
 add_executable(pjc0501 lab05/lab0501.cpp)
+add_executable(user-defined-types lab05/user-defined-types.cpp)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -27,3 +28,4 @@ target_link_libraries(pjc0303 fmt)
 target_link_libraries(pjc04test fmt)
 target_link_libraries(pjc0401 fmt)
 target_link_libraries(pjc0501 fmt)
+target_link_libraries(user-defined-types fmt)
