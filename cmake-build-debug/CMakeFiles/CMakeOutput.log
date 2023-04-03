@@ -28,7 +28,7 @@ The CXX compiler identification is GNU, found in "/Users/yaroslavshlapak/CLionPr
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cc3c6 && [1/2] Building C object CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o
+Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7aa72 && [1/2] Building C object CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o
 Using built-in specs.
 COLLECT_GCC=/usr/local/Cellar/gcc@11/11.3.0/bin/gcc-11
 Target: x86_64-apple-darwin22
@@ -36,8 +36,8 @@ Configured with: ../configure --prefix=/usr/local/opt/gcc@11 --libdir=/usr/local
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.3.0 (Homebrew GCC 11.3.0) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_cc3c6.dir/'
- /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/cc1 -quiet -v -iprefix /usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk /Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_cc3c6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=13.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//cc96ghVZ.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7aa72.dir/'
+ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/cc1 -quiet -v -iprefix /usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk /Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_7aa72.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=13.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccuYsCPK.s
 GNU C17 (Homebrew GCC 11.3.0) version 11.3.0 (x86_64-apple-darwin22)
 	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
 
@@ -64,17 +64,17 @@ warning: MPFR header version 4.1.0-p13 differs from library version 4.2.0.
 warning: MPC header version 1.2.1 differs from library version 1.3.1.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: dd0b20500f0176201798ba15a1f29b5a
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_cc3c6.dir/'
- as -arch x86_64 -v -mmacosx-version-min=13.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//cc96ghVZ.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7aa72.dir/'
+ as -arch x86_64 -v -mmacosx-version-min=13.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccuYsCPK.s
 Apple clang version 14.0.0 (clang-1400.0.29.202)
 Target: x86_64-apple-darwin22.2.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx13.0.0 -filetype obj -main-file-name cc96ghVZ.s -target-cpu penryn -fdebug-compilation-dir=/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 14.0.0 (clang-1400.0.29.202)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -x86-pad-for-align=false -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//cc96ghVZ.s
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx13.0.0 -filetype obj -main-file-name ccuYsCPK.s -target-cpu penryn -fdebug-compilation-dir=/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 14.0.0 (clang-1400.0.29.202)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -x86-pad-for-align=false -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccuYsCPK.s
 COMPILER_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/
 LIBRARY_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_cc3c6
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_7aa72
 Using built-in specs.
 COLLECT_GCC=/usr/local/Cellar/gcc@11/11.3.0/bin/gcc-11
 COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/lto-wrapper
@@ -85,10 +85,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.3.0 (Homebrew GCC 11.3.0) 
 COMPILER_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/
 LIBRARY_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../../
-COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'cmTC_cc3c6' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'cmTC_cc3c6.'
- /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2 -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_cc3c6 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'cmTC_7aa72' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'cmTC_7aa72.'
+ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2 -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_7aa72 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11
 collect2 version 11.3.0
-/usr/bin/ld -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_cc3c6 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11
+/usr/bin/ld -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_7aa72 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11
 @(#)PROGRAM:ld  PROJECT:ld64-820.1
 BUILD 20:07:01 Nov  7 2022
 configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cc3c6 && [1/2] Building C object CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7aa72 && [1/2] Building C object CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/Cellar/gcc@11/11.3.0/bin/gcc-11]
   ignore line: [Target: x86_64-apple-darwin22]
@@ -129,8 +129,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.3.0 (Homebrew GCC 11.3.0) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_cc3c6.dir/']
-  ignore line: [ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/cc1 -quiet -v -iprefix /usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk /Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_cc3c6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=13.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//cc96ghVZ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7aa72.dir/']
+  ignore line: [ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/cc1 -quiet -v -iprefix /usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk /Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_7aa72.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=13.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccuYsCPK.s]
   ignore line: [GNU C17 (Homebrew GCC 11.3.0) version 11.3.0 (x86_64-apple-darwin22)]
   ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
   ignore line: []
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
   ignore line: [warning: MPC header version 1.2.1 differs from library version 1.3.1.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: dd0b20500f0176201798ba15a1f29b5a]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_cc3c6.dir/']
-  ignore line: [ as -arch x86_64 -v -mmacosx-version-min=13.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//cc96ghVZ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7aa72.dir/']
+  ignore line: [ as -arch x86_64 -v -mmacosx-version-min=13.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccuYsCPK.s]
   ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
   ignore line: [Target: x86_64-apple-darwin22.2.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx13.0.0 -filetype obj -main-file-name cc96ghVZ.s -target-cpu penryn -fdebug-compilation-dir=/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 14.0.0 (clang-1400.0.29.202)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -x86-pad-for-align=false -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//cc96ghVZ.s]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx13.0.0 -filetype obj -main-file-name ccuYsCPK.s -target-cpu penryn -fdebug-compilation-dir=/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 14.0.0 (clang-1400.0.29.202)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -x86-pad-for-align=false -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccuYsCPK.s]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.']
-  ignore line: [[2/2] Linking C executable cmTC_cc3c6]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_7aa72]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/Cellar/gcc@11/11.3.0/bin/gcc-11]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/lto-wrapper]
@@ -178,8 +178,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.3.0 (Homebrew GCC 11.3.0) ]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'cmTC_cc3c6' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'cmTC_cc3c6.']
-  link line: [ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2 -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_cc3c6 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'cmTC_7aa72' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'cmTC_7aa72.']
+  link line: [ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2 -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_7aa72 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11]
     arg [/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2] ==> ignore
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
@@ -189,14 +189,14 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [13.0.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cc3c6] ==> ignore
+    arg [cmTC_7aa72] ==> ignore
     arg [-L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11] ==> dir [/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11]
     arg [-L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc] ==> dir [/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc]
     arg [-L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../..] ==> dir [/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../..]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_cc3c6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7aa72.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lemutls_w] ==> lib [emutls_w]
     arg [-lgcc] ==> lib [gcc]
     arg [-lSystem] ==> lib [System]
@@ -229,7 +229,7 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d2d95 && [1/2] Building CXX object CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o
+Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/ninja/mac/ninja cmTC_36ada && [1/2] Building CXX object CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o
 Using built-in specs.
 COLLECT_GCC=/usr/local/Cellar/gcc@11/11.3.0/bin/g++-11
 Target: x86_64-apple-darwin22
@@ -237,8 +237,8 @@ Configured with: ../configure --prefix=/usr/local/opt/gcc@11 --libdir=/usr/local
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.3.0 (Homebrew GCC 11.3.0) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_d2d95.dir/'
- /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/cc1plus -quiet -v -iprefix /usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk /Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_d2d95.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=13.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccaPBj6w.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_36ada.dir/'
+ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/cc1plus -quiet -v -iprefix /usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk /Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_36ada.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=13.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccltoDCy.s
 GNU C++17 (Homebrew GCC 11.3.0) version 11.3.0 (x86_64-apple-darwin22)
 	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
 
@@ -271,17 +271,17 @@ warning: MPFR header version 4.1.0-p13 differs from library version 4.2.0.
 warning: MPC header version 1.2.1 differs from library version 1.3.1.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: cbd3f4e6327f9f18f92221baed806a9c
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_d2d95.dir/'
- as -arch x86_64 -v -mmacosx-version-min=13.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccaPBj6w.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_36ada.dir/'
+ as -arch x86_64 -v -mmacosx-version-min=13.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccltoDCy.s
 Apple clang version 14.0.0 (clang-1400.0.29.202)
 Target: x86_64-apple-darwin22.2.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx13.0.0 -filetype obj -main-file-name ccaPBj6w.s -target-cpu penryn -fdebug-compilation-dir=/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 14.0.0 (clang-1400.0.29.202)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -x86-pad-for-align=false -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccaPBj6w.s
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx13.0.0 -filetype obj -main-file-name ccltoDCy.s -target-cpu penryn -fdebug-compilation-dir=/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 14.0.0 (clang-1400.0.29.202)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -x86-pad-for-align=false -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccltoDCy.s
 COMPILER_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/
 LIBRARY_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_d2d95
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_36ada
 Using built-in specs.
 COLLECT_GCC=/usr/local/Cellar/gcc@11/11.3.0/bin/g++-11
 COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/lto-wrapper
@@ -292,10 +292,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.3.0 (Homebrew GCC 11.3.0) 
 COMPILER_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/
 LIBRARY_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../../
-COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'cmTC_d2d95' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_d2d95.'
- /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2 -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_d2d95 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'cmTC_36ada' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_36ada.'
+ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2 -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_36ada -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11
 collect2 version 11.3.0
-/usr/bin/ld -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_d2d95 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11
+/usr/bin/ld -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_36ada -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11
 @(#)PROGRAM:ld  PROJECT:ld64-820.1
 BUILD 20:07:01 Nov  7 2022
 configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -334,7 +334,7 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d2d95 && [1/2] Building CXX object CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/ninja/mac/ninja cmTC_36ada && [1/2] Building CXX object CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/Cellar/gcc@11/11.3.0/bin/g++-11]
   ignore line: [Target: x86_64-apple-darwin22]
@@ -342,8 +342,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.3.0 (Homebrew GCC 11.3.0) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_d2d95.dir/']
-  ignore line: [ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/cc1plus -quiet -v -iprefix /usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk /Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_d2d95.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=13.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccaPBj6w.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_36ada.dir/']
+  ignore line: [ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/cc1plus -quiet -v -iprefix /usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk /Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_36ada.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=13.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccltoDCy.s]
   ignore line: [GNU C++17 (Homebrew GCC 11.3.0) version 11.3.0 (x86_64-apple-darwin22)]
   ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
   ignore line: []
@@ -376,17 +376,17 @@ Parsed CXX implicit link information from above output:
   ignore line: [warning: MPC header version 1.2.1 differs from library version 1.3.1.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: cbd3f4e6327f9f18f92221baed806a9c]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_d2d95.dir/']
-  ignore line: [ as -arch x86_64 -v -mmacosx-version-min=13.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccaPBj6w.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_36ada.dir/']
+  ignore line: [ as -arch x86_64 -v -mmacosx-version-min=13.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccltoDCy.s]
   ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
   ignore line: [Target: x86_64-apple-darwin22.2.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx13.0.0 -filetype obj -main-file-name ccaPBj6w.s -target-cpu penryn -fdebug-compilation-dir=/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 14.0.0 (clang-1400.0.29.202)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -x86-pad-for-align=false -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccaPBj6w.s]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx13.0.0 -filetype obj -main-file-name ccltoDCy.s -target-cpu penryn -fdebug-compilation-dir=/Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 14.0.0 (clang-1400.0.29.202)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -x86-pad-for-align=false -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o /var/folders/n3/ksyv9g1n4cd8khw25wp89_xc0000gn/T//ccltoDCy.s]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_d2d95]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_36ada]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/Cellar/gcc@11/11.3.0/bin/g++-11]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/lto-wrapper]
@@ -397,8 +397,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.3.0 (Homebrew GCC 11.3.0) ]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/:/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'cmTC_d2d95' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_d2d95.']
-  link line: [ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2 -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_d2d95 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk' '-v' '-o' 'cmTC_36ada' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_36ada.']
+  link line: [ /usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2 -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -macosx_version_min 13.0.0 -o cmTC_36ada -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11 -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc -L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc/x86_64-apple-darwin22/11 -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11/gcc -rpath /usr/local/Cellar/gcc@11/11.3.0/lib/gcc/11]
     arg [/usr/local/Cellar/gcc@11/11.3.0/bin/../libexec/gcc/x86_64-apple-darwin22/11/collect2] ==> ignore
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
@@ -408,14 +408,14 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [13.0.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d2d95] ==> ignore
+    arg [cmTC_36ada] ==> ignore
     arg [-L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11] ==> dir [/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11]
     arg [-L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc] ==> dir [/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc]
     arg [-L/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../..] ==> dir [/usr/local/Cellar/gcc@11/11.3.0/bin/../lib/gcc/11/gcc/x86_64-apple-darwin22/11/../../..]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_d2d95.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_36ada.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lgcc_s.1.1] ==> lib [gcc_s.1.1]
     arg [-lgcc] ==> lib [gcc]
@@ -449,8 +449,8 @@ Parsed CXX implicit link information from above output:
 Performing C++ SOURCE FILE Test has_std_20_flag succeeded with the following output:
 Change Dir: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1ab21 && [1/2] Building CXX object CMakeFiles/cmTC_1ab21.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_1ab21
+Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8fd8b && [1/2] Building CXX object CMakeFiles/cmTC_8fd8b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_8fd8b
 
 
 Source file was:
@@ -458,8 +458,8 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test has_std_2a_flag succeeded with the following output:
 Change Dir: /Users/yaroslavshlapak/CLionProjects/pjc/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e45c1 && [1/2] Building CXX object CMakeFiles/cmTC_e45c1.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_e45c1
+Run Build Command(s):/Users/yaroslavshlapak/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/ninja/mac/ninja cmTC_22f49 && [1/2] Building CXX object CMakeFiles/cmTC_22f49.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_22f49
 
 
 Source file was:
